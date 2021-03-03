@@ -7,7 +7,7 @@ alert ("I will ask you 5 questions as a fun quizze, to test your basic informati
 
 // q1
 let q1 = prompt ("Q1: Am I Majida Hatamleh?").toLowerCase();
-function checkanswer ()) {
+function checkanswer () {
     if (q1.toUpperCase() === "Y" || (q1.toLowerCase() === "yes")
         // console.log ("Your answer i Correct ^_^ ")
         alert ("Your answer is Correct ^_^ ")
@@ -33,7 +33,7 @@ checkanswer ();
 // q2
 let q2 = prompt ("Q2: Am I from Jordan?").toLowerCase();
 
-function checkanswer ()) {
+function checkanswer () {
     if (q2.toUpperCase() === "Y" || (q2.toLowerCase() === "yes")
         // console.log ("Your answer i Correct ^_^ ")
         alert ("Your answer is Correct ^_^ ")
@@ -58,7 +58,7 @@ checkanswer ();
 
 // q3
 let q3 = prompt ("Q3: have I any experience in digital marketing & branding?").toLowerCase();
-function checkanswer ()) {
+function checkanswer () {
     if (q3.toUpperCase() === "Y" || (q3.toLowerCase() === "yes")
         // console.log ("Your answer i Correct ^_^ ")
         alert ("Your answer is Correct ^_^ ")
@@ -83,7 +83,7 @@ checkanswer ();
 
 // q4
 let q4 = prompt ("Q4: Have I completed postgraduate studies?").toLowerCase();
-function checkanswer ()) {
+function checkanswer () {
     if (q4.toUpperCase() === "Y" || (q4.toLowerCase() === "yes")
         // console.log ("Your answer i Correct ^_^ ")
         alert ("Your answer is Correct ^_^ ")
@@ -108,7 +108,7 @@ checkanswer ();
 
 // q5
 let q5 = prompt ("Q5: I Did Not participate in this camp for fun?").toLowerCase();
-function checkanswer ()) {
+function checkanswer () {
     if (q5.toUpperCase() === "Y" || (q5.toLowerCase() === "yes")
         // console.log ("Your answer i Correct ^_^ ")
         alert ("Your answer is Correct ^_^ ")
