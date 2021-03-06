@@ -97,16 +97,43 @@ let userName= prompt("Excuse me I forgot to ask you, what is your name?");
 alert ( "nice to meet you " + userName +  " , thank you!!")
 
 
-// q6 
-
-let q6= prompt("Guess what is my fav number from 20 to 30 ?"); 
-    if (q6 == 23) {
-        alert("Yes, 23 My fav number");    
-    } else {
-        if (q6 > 21 && q6 < 25 ) {
-            alert ("your guess is too high");
-        } else {
-            alert ("your guess is too low"); 
+// q6  
+var i = 0; 
+for (i = 0; i <= 3; i++) { 
+let q6= prompt("Guess what is my fav number from 20 to 30 ?");  
+     if (q6 == 23) 
+        {
+        alert("Yes, 23 My fav number");
+        break; 
         }
+    else if (q6 >= 22 && q6 <=24 ) 
+        {
+        alert ("your guess is too high");
+        } 
+    else if (q6 < 22 || q6 > 24) 
+        {
+        alert ("your guess is too low");
+        }
+}
+alert("You've exhausted all attempts, my fav number is 23")
+
+
+
+// q7  
+var i= 0; 
+for (i = 0; i < 5; i++) { 
+    let q7= prompt("Guess what is my fav city in Jordan from: irbid , amman , aqaba , salt , ajlun , maa'n ?");  
+    if (q7 === "amman")
+    {
+        alert("Yes, My fav city is amman");
+        breack;  
+    } 
+    else 
+    {
+        alert ("your guess is Wrong");
     }
-  
+}
+
+
+// counter 
+
