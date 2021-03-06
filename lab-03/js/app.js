@@ -88,13 +88,6 @@ if (q5 == "y" || q5 == "yes"){
     alert ("your answer must be either y/n or yes/no");    
     }
 
-    ////
-
-
-///////////////////////////// welcome message  /////////////////////////////////
-
-let userName= prompt("Excuse me I forgot to ask you, what is your name?"); 
-alert ( "nice to meet you " + userName +  " , thank you!!")
 
 
 // q6  
@@ -135,5 +128,13 @@ for (i = 0; i < 5; i++) {
 }
 
 
-// counter 
+
+///////////////////////////// welcome message  /////////////////////////////////
+
+let userName= prompt("Excuse me I forgot to ask you, what is your name?"); 
+alert ( "nice to meet you " + userName +  " , thank you!!")
+
+
+
+// counter
 
