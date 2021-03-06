@@ -1,7 +1,7 @@
 "use strict";
 // strict mode now applies for the rest of the script
 
-
+let counter = 0 ; 
 alert ("I will ask you 5 questions as a fun quizze, to test your basic information about who am I and where am I came from, and so on ... your answer must be either y/n or yes/no ??");
 
 // q1
@@ -9,7 +9,7 @@ let q1= prompt ("Q1: Do you know my full name?").toLowerCase();
 if (q1 == "y" || q1 == "yes"){
     // console.log ("Your answer is Correct ^_^ ")
      alert ("Oh really!! I didn't expect that");
-
+    counter++;
 } else if (q1 == "n" || q1 == "no"){
     // console.log ("Your answer is Wrong ~_~")
      alert ("Well, my name is Majida Hatamleh"); 
@@ -30,7 +30,7 @@ if (q2 == "y" || q1 == "yes"){
 } else if (q2 == "n" || q2 == "no"){
    // console.log ("Your answer is Correct ^_^ ")
     alert ("correct, I'm from Jordan");
-
+    counter++;
 } else {
    // console.log("your answer must be either y/n or yes/no")
     alert ("your answer must be either y/n or yes/no");    
@@ -42,7 +42,7 @@ let q3= prompt ("Q3: have I any experience in digital marketing & branding?").to
 if (q3 == "y" || q3 == "yes"){
     // console.log ("Your answer is Correct ^_^ ")
      alert ("correct, i have 1 year experience in digital marketing & branding :)");
-
+     counter++;
 } else if (q3 == "n" || q3 == "no"){
     // console.log ("Your answer is Wrong ~_~")
      alert ("wrong, I have experience in digital marketing & branding"); 
@@ -63,7 +63,7 @@ if (q4 == "y" || q4 == "yes"){
     } else if (q4 == "n" || q4 == "no"){
     // console.log ("Your answer is Correct ^_^ ")
      alert ("you are right, I studied management information systems");
-
+     counter++;
 } else {
    // console.log("your answer must be either y/n or yes/no")
     alert ("your answer must be either y/n or yes/no");    
@@ -82,7 +82,7 @@ if (q5 == "y" || q5 == "yes"){
 } else if (q5 == "n" || q5 == "no"){
      // console.log ("Your answer is Correct ^_^ ")
      alert ("yes, of course, I didn't come here for fun");   
-
+     counter++;
 } else {
     // console.log("your answer must be either y/n or yes/no")
     alert ("your answer must be either y/n or yes/no");    
@@ -92,12 +92,15 @@ if (q5 == "y" || q5 == "yes"){
 
 
     // q6  
-var i = 0;  
-for (i = 0; i < 3; i++) {
+var i = 0;
+let cA = false;  
+for (i = 0; i < 4 ; i++) {
     let q6= prompt("Guess what is my fav number from 20 to 30 ?"); 
         if (q6 == 23) 
         {
         alert("Yes, 23 My fav number");
+        counter++;
+        cA = true; 
         break; 
         }
         else if (q6 >= 22 && q6 <=24 ) 
@@ -118,6 +121,7 @@ for (i = 0; i <= 5; i++) {
     if (q7 === "amman")
     {
         alert("Yes, My fav city is amman");
+        counter++;
         breack;  
     } 
     else 
@@ -127,8 +131,8 @@ for (i = 0; i <= 5; i++) {
 }
 
 
-
 ///////////////////////////// welcome message  /////////////////////////////////
 
-let userName= prompt("Excuse me I forgot to ask you, what is your name?"); 
-alert ("nice to meet you " + userName +  " , thank you!!") ;
+let name1 = prompt("Excuse me I forgot to ask you, what is your name?"); 
+alert ("nice to meet you " + name1 +  " , thank you!!");
+alert (' Your score is: ' + counter + ' /7 ');
