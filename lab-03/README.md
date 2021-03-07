@@ -17,6 +17,7 @@ then add an alarm tell the user the scour that  git it for the correct answer
 in this lap, I try pair programming for the first time, I work with my partner Ahmad Aldaboqi on my project as a Navigator, and he was a driver. 
 we convert the command in the javascript page to the function, I enjoyed this experience. 
 
+<<<<<<< HEAD
 #### Lab: 03 - Extend your 'About Me' and guessing game
 Read the document in its entirety before beginning your lab.
 
@@ -65,3 +66,5 @@ Make the number-guessing question use a random number as its correct answer.
 Resources
 Utulize the same resources as described in Lab 02.
 
+=======
+>>>>>>> 5e43df0e2362b66cd5ff817584bfccc2e5695ef5
