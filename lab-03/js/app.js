@@ -137,25 +137,32 @@ function number() {
 number();
 
 
-// q7  
-function city() {
-    for (let i = 0; i <= 5; i++) {
-        let q7 = prompt("Guess what is my fav city in Jordan from: irbid , amman , aqaba , salt , ajlun , maa'n ?");
-        if (q7 === "amman") {
-            alert("Yes, My fav city is amman");
-            counter++;
-            breack;
+// q7
+function q7(){
+    let city ;
+    for (let i = 0; i < 6; i++) {
+      let q7 = prompt ('Guess my fav city in Jordan, you have only 6 choices');
+      let favCity = ['irbid', 'Karak', 'Jerash', 'alSalt', 'amman' , 'Madaba', 'Madaba', 'Mafraq', 'Aqaba', 'zarqa'];
+      for (let i = 0; i < 10; i++) {
+        if (q7 === favCity[i]) {
+          city = favCity[i];
+          break;
         }
-        else {
-            alert("your guess is Wrong");
-        }
+      }
+      if (q7 === city) {
+        alert ('Correct');
+        counter = counter + 1 ;
+        break;
+      } else {
+        alert ('Wrong');
+      }
+      //    console.log (q7)  ;
     }
-}
-
-city();
+  }
+  q7();
 
 ///////////////////////////// welcome message  /////////////////////////////////
 
-let name1 = prompt("Excuse me I forgot to ask you, what is your name?");
-alert("nice to meet you " + name1 + " , thank you!!");
-alert(' Your score is: ' + counter + ' /7 ');
+let welcomeMsg = prompt("Excuse me I forgot to ask you, what is your name?");
+
+alert("Thank you " + welcomeMsg + " for your time, Your score is: " + counter + " / 7 ");
