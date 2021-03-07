@@ -13,3 +13,6 @@ In this lab I add 2 new questions to a user, first to guess a number between 20 
 then add an alarm tell the user the scour that  git it for the correct answer
 
 
+In Lab: 04 - Pair Programming: More extensions to About Me
+in this lap, I try pair programming for the first time, I work with my partner Ahmad Aldaboqi on my project as a Navigator, and he was a driver. 
+we convert the command in the javascript page to the function, I enjoyed this experience. 
