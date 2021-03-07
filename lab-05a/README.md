@@ -9,7 +9,4 @@ In this "About Me Guessing Game" I ask the user 5 questions about me, then I let
 Then I ask a user about his name, to welcoming him by alert welcoming message. 
 
 In Lab: 03 - Extend your 'About Me' and guessing game:
-In this lab I add 2 new questions to a user, first to guess a number between 20 and 30, the second one to guess my fav city in Jordan.
-then add an alarm tell the user the scour that  git it for the correct answer
-
 
